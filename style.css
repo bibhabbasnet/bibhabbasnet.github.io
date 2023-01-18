@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    background-image: url(https://mobimg.b-cdn.net/v3/fetch/dc/dc0d2081b60ab11f9cbfbb6824267026.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+.songs{
+    line-height: 200%;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
