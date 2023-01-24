@@ -1,0 +1,52 @@
+.background{
+    background-color: black;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    position: fixed;
+    font-size: small;
+    left:7%;
+    z-index: 2;
+    
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.video1{ 
+align-self: center ;
+
+}
+
+.text{
+    color: white;
+    border: 10px    ;
+}
+.horizontal-block {
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .column {
+    
+    }
+    
+    .empty-column {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    height: 580px;
+    }
+    
+    .filled-column {
+    position: relative; 
+    z-index: 2;
+    flex: 1;
+    color: white;
+    margin-right: 5%;
+    }
